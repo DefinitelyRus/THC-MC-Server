@@ -27,3 +27,4 @@ thc2-world/uid.dat
 plugins/CoreProtect/.license
 /logs
 .console_history
+plugins/SkinsRestorer/recommendations.json
