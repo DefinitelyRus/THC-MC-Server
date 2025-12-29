@@ -28,3 +28,4 @@ plugins/CoreProtect/.license
 /logs
 .console_history
 plugins/SkinsRestorer/recommendations.json
+plugins/CoreProtect/database.db-wal
