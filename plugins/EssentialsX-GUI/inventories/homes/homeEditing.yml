@@ -1,0 +1,94 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                      Information                     | #
+# +------------------------------------------------------+ #
+############################################################
+
+# This is the home editing inventory file for EssentialsX-GUI.
+
+# If you need help with the configuration of the GUI,
+# you can join our discord server at: https://discord.gg/fSzK79TAYf
+
+# For more information about how to configure EssentialsX-GUI,
+# check our Wiki at: https://sniper-tvmc.gitbook.io/essentialsx-gui/configuration/inventories
+
+############################################################
+# +------------------------------------------------------+ #
+# |                        General                       | #
+# +------------------------------------------------------+ #
+############################################################
+
+# Please do not change this value as it may cause the file to be reset.
+# Default: "1.1"
+config-version: "1.1"
+
+############################################################
+# +------------------------------------------------------+ #
+# |                       Inventory                      | #
+# +------------------------------------------------------+ #
+############################################################
+
+homeEditing:
+
+  # Placeholders available: {homeDisplayName}, {homeName}, {homeDisplayName}
+  # By default, if homeDisplayName is not set, it will use the home name.
+  title: "&2Editing &a{homeName}&2's home"
+  rows: 6
+
+  borderItem:
+    enabled: true
+    slots: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 17, 18, 26, 27, 35, 36, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+    material: "BLACK_STAINED_GLASS_PANE"
+    displayName: "&8- &6&lEssentialsX-GUI"
+
+  items:
+
+    # 'material' value will be ignored in this section. It will use the material of player's home's.
+    # Placeholders available: {homeDisplayName}, {homeName}
+    # By default, if homeDisplayName is not set, it will use the home name.
+    previewHomeItem:
+      enabled: true
+      slot: 22
+      displayName: "&6{homeDisplayName}"
+      lore:
+        - "&f&lLeft Click &7to teleport to this home."
+        - "&f&lRight Click &7to edit this home."
+        - "&f&lDrop &7to delete this home."
+        - ""
+        - "&7Home Name: &f&o{homeName}"
+
+    # Placeholders available: {homeName}, {homeDisplayName}
+    changeDisplayNameItem:
+      enabled: true
+      slot: 30
+      material: "NAME_TAG"
+      displayName: "&6Change Display Name"
+      lore:
+        - "&7Click to change the display name of this home."
+
+    # Placeholders available: [homeName}
+    changeIconItem:
+      enabled: true
+      slot: 31
+      material: "CHEST"
+      displayName: "&6Change Icon"
+      lore:
+        - "&7Click to change the icon of this home."
+
+    # Placeholders available: [homeName}, {homeDisplayName}
+    deleteHomeItem:
+      enabled: true
+      slot: 32
+      material: "LAVA_BUCKET"
+      displayName: "&cDelete Home"
+      lore:
+        - "&7Click to delete this home."
+        - "&cThis action cannot be undone!"
+
+    backItem:
+      enabled: true
+      slot: 49
+      material: "ARROW"
+      displayName: "&cBack"
+      lore:
+        - "&7Click to go back to the homes list."

@@ -1,0 +1,13 @@
+version: 1.0.0
+debug: false
+console:
+  # Should NEG use it's full name or NEG in console messages?
+  longpluginname: true
+cat_to_camel_chance: 0.75
+camels:
+  # Whether to check nearby camels in the village or not
+  check_camels: true
+  # Maximum camels which can exist nearby
+  max_camels_nearby: 1
+  # Radius for search of nearby camels
+  search_radius: 20

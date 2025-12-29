@@ -1,0 +1,55 @@
+# =====================================================
+# funcy's More Wandering Trader Trades - Spigot
+# by: funcybear
+# Join the discord: https://discord.gg/8CpcrZhH
+# Donation: https://www.paypal.com/paypalme/funcybeardev
+#
+# The plugin is in beta, there will be improvement and plugin updates to match with the fabric version on the mod!
+#
+# WEBSITE VERSION TO SET UP THIS CONFIG: -> https://funcybear.github.io/
+# WEBSITE VERSION TO SET UP THIS CONFIG: -> https://funcybear.github.io/
+# WEBSITE VERSION TO SET UP THIS CONFIG: -> https://funcybear.github.io/
+#
+# =====================================================
+wandering_trader_trades:
+  # Trade with a single cost item (backward compatibility)
+  - item: TURTLE_HELMET
+    cost: SCUTE
+    amount: 5
+    price: 1
+
+  - item: MUSIC_DISC_PIGSTEP
+    cost: EMERALD_BLOCK
+    amount: 3
+    price: 1
+
+  - item: BEACON
+    cost: NETHER_STAR
+    amount: 1
+    price: 1
+
+  # Trade with two cost items
+  - item: DIAMOND
+    price: 1
+    cost1: EMERALD
+    amount1: 5
+    cost2: GOLD_INGOT
+    amount2: 3
+
+  - item: ENCHANTED_BOOK
+    price: 1
+    cost1: EMERALD
+    amount1: 15
+    cost2: LAPIS_LAZULI
+    amount2: 10
+    enchantment: MENDING
+    level: 1
+
+min_trades_displayed: 4
+max_trades_displayed: 6
+
+
+# WEBSITE VERSION TO SET UP THIS CONFIG: -> https://funcybear.github.io/
+# WEBSITE VERSION TO SET UP THIS CONFIG: -> https://funcybear.github.io/
+# WEBSITE VERSION TO SET UP THIS CONFIG: -> https://funcybear.github.io/
+

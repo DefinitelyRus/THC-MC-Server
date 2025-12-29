@@ -1,0 +1,52 @@
+Arrow_Effects:
+  # Sets tick interval for arrow & trident particle effect trails added by enchantments.
+  # [Increase for performance; Decrease for better visuals]
+  # [20 ticks = 1 second]
+  # [Default is 1]
+  Tick_Interval: 1
+Passive_Enchants:
+  # Tick interval for passive enchantments (in seconds).
+  # Passive enchants depends on entity's 'ticksLived' value, changing this value may result in passive enchants not triggered correctly.
+  # [Default is 1]
+  Interval: 1
+  # Controls whether mobs are affected by effects of passive enchantments.
+  # [Disable for performance; Enable for better experience]
+  # [Default is true]
+  AllowForMobs: true
+Description:
+  # When 'true', adds the enchantment description to item lore under enchantment names.
+  Enabled: true
+  # Sets whether or not only enchanted books will have enchantment descriptions.
+  Books_Only: false
+  Format:
+    # Sets description format for enchantments without charges.
+    Default: <soft_gray>• %description%</soft_gray>
+    # Sets description format for enchantments with charges enabled.
+    WithCharges: <soft_gray>• %description% %charges%</soft_gray>
+Charges:
+  # Enables the Charges feature: https://nightexpressdev.com/excellentenchants/features/charges
+  Enabled: false
+  # Sets charges format based on percent of max. charges amount.
+  Format:
+    zero:
+      Threshold: 0
+      Format: <soft_red>(%amount%⚡)</soft_red>
+    low:
+      Threshold: 25
+      Format: <soft_orange>(%amount%⚡)</soft_orange>
+    medium:
+      Threshold: 50
+      Format: <soft_yellow>(%amount%⚡)</soft_yellow>
+    high:
+      Threshold: 75
+      Format: <soft_green>(%amount%⚡)</soft_green>
+  Fuel:
+    # Controls if item meta (such as display name, lore, model data, etc.) should be ignored when checks if item is valid fuel.
+    # [Default is false]
+    Ignore_Meta: false
+    # Default item used to fuel enchantments on anvils.
+    # Enchantments can have their own custom fuel items.
+    # https://nightexpressdev.com/nightcore/configuration/item-formation/
+    Item:
+      Material: minecraft:lapis_lazuli
+      Lore: []

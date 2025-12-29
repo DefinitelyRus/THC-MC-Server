@@ -1,0 +1,26 @@
+# General settings
+general:
+  # Messages for the operator upon join
+  op-message-on-join: true
+# Block change limits
+limits:
+  # Default block change limit per operation
+  default-block-change-limit: 1000000
+  # Default timeout for operations (milliseconds)
+  max-history-size: 15
+# Wand settings
+wand:
+  # Item to use as selection wand
+  item: "minecraft:wooden_axe"
+# File settings
+files:
+  # Schematics directory
+  schematics-directory: "schematics"
+# Performance settings
+performance:
+  # batch size
+  batchSize: 1000
+  # Time to complete one match in MS
+  batchDelay: 50
+  # Maximum number of chunk processing threads
+  maxConcurrentChunks: 5
