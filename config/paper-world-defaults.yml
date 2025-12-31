@@ -255,8 +255,8 @@ environment:
 feature-seeds:
   generate-random-seeds-for-all: false
 fishing-time-range:
-  maximum: 600
-  minimum: 100
+  maximum: 300
+  minimum: 50
 fixes:
   disable-unloaded-chunk-enderpearl-exploit: false
   falling-block-height-nerf: disabled
@@ -269,9 +269,9 @@ hopper:
   disable-move-event: false
   ignore-occluding-blocks: false
 lootables:
-  auto-replenish: false
-  max-refills: -1
-  refresh-max: 2d
+  auto-replenish: true
+  max-refills: 5
+  refresh-max: 12h
   refresh-min: 12h
   reset-seed-on-fill: true
   restrict-player-reloot: true
@@ -307,13 +307,13 @@ tick-rates:
     villager:
       validatenearbypoi: -1
   container-update: 1
-  dry-farmland: 1
-  grass-spread: 1
-  mob-spawner: 1
+  dry-farmland: 2
+  grass-spread: 3
+  mob-spawner: 2
   sensor:
     villager:
       secondarypoisensor: 40
-  wet-farmland: 1
+  wet-farmland: 2
 unsupported-settings:
   disable-world-ticking-when-empty: false
   fix-invulnerable-end-crystal-exploit: true
