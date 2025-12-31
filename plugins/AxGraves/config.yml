@@ -3,14 +3,14 @@ prefix: '<gradient:#FF00FF:#DD00FF><b>AxGraves</b></gradient> &7» '
 # how fast should the graves disappear
 # set to -1 to make graves last until the next server restart
 # in seconds
-despawn-time-seconds: 180
+despawn-time-seconds: 86400
 
 # should graves drop all items on the ground when they expire?
 # if false: items will be removed
 drop-items: true
 
 # if drop-items is true, should the dropped items have a velocity? (so should they fly around when dropped or stay in one block?)
-dropped-item-velocity: true
+dropped-item-velocity: false
 
 # should players have the ability to take all items from a death chest by shift right clicking?
 enable-instant-pickup: true
@@ -52,7 +52,7 @@ interact-only-own: false
 
 # should the player lose any xp on death?
 # this is a percentage, so 0.5 would be 50% xp
-xp-keep-percentage: 1.0
+xp-keep-percentage: 0.75
 
 # should the plugin store XP in graves?
 # if disabled, XP will be dropped on the ground
@@ -73,7 +73,7 @@ auto-equip-armor: true
 # if the limit is reached, the first grave will be removed
 # set to -1 to disable
 # you can override this by giving players the axgraves.limit.<amount> permissions
-grave-limit: -1
+grave-limit: 5
 
 # by default every grave will use the player's skull
 # with this setting you can override it
