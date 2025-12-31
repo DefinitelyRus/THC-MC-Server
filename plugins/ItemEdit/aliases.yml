@@ -123,6 +123,21 @@ enchant:
   regrowth: regrowth
   double_catch: double_catch
   curse_of_mediocrity: curse_of_mediocrity
+  aerials_bane: aerials_bane
+  traveler: traveler
+  conductivity_curse: conductivity_curse
+  ghasted: ghasted
+  wither_coated: wither_coated
+  shulker_boss: shulker_boss
+  photosynthesis: photosynthesis
+  boss_behaviour: boss_behaviour
+  shulker_miniboss: shulker_miniboss
+  gravity: gravity
+  spiteful: spiteful
+  wax_wings: wax_wings
+  illagers_bane: illagers_bane
+  antidote: antidote
+  outreach: outreach
 banner_pattern:
   square_bottom_left: bottom_left_corner
   square_bottom_right: bottom_right_corner
@@ -2450,3 +2465,40 @@ entitygroups:
   frog_food: frog_food
   zombies: zombies
   sensitive_to_smite: sensitive_to_smite
+  nova_structures:illager: illager
+  nullscape:not_teleportable: not_teleportable
+  blazeandcave:arrows: arrows
+  more_mobs:burns_in_daylight: burns_in_daylight
+  true_ending:misc: misc
+  true_ending:useable_invis: useable_invis
+  more_mobs:spider: spider
+  true_ending:item_frames: item_frames
+  true_ending:main_night_mobs: main_night_mobs
+  blazeandcave:dont_trigger_piwe_sans_boats: dont_trigger_piwe_sans_boats
+  blazeandcave:dont_trigger_piwe: dont_trigger_piwe
+  blazeandcave:spiders: spiders
+  blazeandcave:piglins: piglins
+  blazeandcave:chest_boats: chest_boats
+  true_ending:not_ouchable: not_ouchable
+  true_ending:small: small
+  blazeandcave:hostile_monsters: hostile_monsters
+  blazeandcave:overworld_zombies: overworld_zombies
+  blazeandcave:non_mob_entities: non_mob_entities
+  true_ending:area: area
+  true_ending:misc_brush: misc_brush
+  true_ending:arrow: arrow
+  more_mobs:parsable: parsable
+  true_ending:boss_mobs: boss_mobs
+  blazeandcave:llamas: llamas
+  blazeandcave:zombies: zombies
+  blazeandcave:non_mob_entities_sans_boats: non_mob_entities_sans_boats
+  blazeandcave:player_rideables: player_rideables
+  true_ending:cannot_be_silenced: cannot_be_silenced
+  blazeandcave:all_boats: all_boats
+  true_ending:illager_raiders: illager_raiders
+  true_ending:all_night_mobs: all_night_mobs
+  true_ending:tnt: tnt
+  blazeandcave:cj_rideables: cj_rideables
+  true_ending:not_health_readable: not_health_readable
+  true_ending:misc_spyglass: misc_spyglass
+  blazeandcave:horses: horses

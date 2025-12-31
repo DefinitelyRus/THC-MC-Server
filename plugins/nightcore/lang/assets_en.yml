@@ -1840,3 +1840,5 @@ DamageType:
   dragon_breath: Dragon Breath
   generic: Generic
   ender_pearl: Ender Pearl
+  mob_attack_pierce_shield: Mob Attack Pierce Shield
+  mob_attack_pierce_shield_cooldown: Mob Attack Pierce Shield Cooldown
