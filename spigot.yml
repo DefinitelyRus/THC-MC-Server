@@ -37,7 +37,7 @@ settings:
 messages:
   whitelist: Ask Rus to whitelist you first lol
   unknown-command: tf u yappin about? (This command doesn't exist.)
-  server-full: The server is full!
+  server-full: its full lol
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! We're still on {0}
   restart: Server is restarting...

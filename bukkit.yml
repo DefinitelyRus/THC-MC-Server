@@ -18,7 +18,7 @@ settings:
   connection-throttle: 4000
   query-plugins: true
   deprecated-verbose: default
-  shutdown-message: Server closed
+  shutdown-message: The server is shutting down or restarting...
   minimum-api: none
   use-map-color-cache: true
 spawn-limits:
