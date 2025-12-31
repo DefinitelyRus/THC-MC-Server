@@ -135,7 +135,7 @@ entities:
     boosted-hatch-time: default
     hatch-time: default
   spawning:
-    all-chunks-are-slime-chunks: false
+    all-chunks-are-slime-chunks: true
     alt-item-despawn-rate:
       enabled: false
       items:
