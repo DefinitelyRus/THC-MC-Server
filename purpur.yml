@@ -788,7 +788,7 @@ world-settings:
         attributes:
           max_health: 20.0
           scale: 1.0
-        naturally-charged-chance: 0.0
+        naturally-charged-chance: 0.001
         allow-griefing: true
         mob-griefing-override: default
         takes-damage-from-water: false
