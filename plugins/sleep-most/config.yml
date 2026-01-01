@@ -18,62 +18,55 @@ nightcycle-animation-speed-max: 170
 # AFK handling controls which placeholder is used to determine if a player is afk
 # This requires PlaceholderAPI to be installed and the use-afk flag to be enabled
 afk-handling:
-  placeholder: "%essentials_afk%"
-  positive-result: "yes"
+  placeholder: '%essentials_afk%'
+  positive-result: 'yes'
 
 sleep:
   # for each world, you can create different configurations
-  world:
+  thc2-world:
     enabled: true
     calculation-method: percentage
-    percentage-required: 0.5
-    players-required: 5
+    percentage-required: 0.25
+    players-required: 2
     mob-no-target: true
     use-exempt: false
     use-afk: false
     use-bossbar: false
     use-sound-night-skipped: false
     use-sound-storm-skipped: false
-    use-title-night-skipped: false
-    use-title-storm-skipped: false
-    exempt-creative: false
-    exempt-spectator: false
+    use-title-night-skipped: true
+    use-title-storm-skipped: true
+    exempt-creative: true
+    exempt-spectator: true
     prevent-sleep: false
     prevent-phantom: false
     nightcycle-animation: false
     storm-sleep: true
     skip-delay: 0
-    heal: false
+    heal: true
     feed: false
     skip-night-sound: ui.toast.challenge_complete
     skip-storm-sound: entity.wither.spawn
     reset-time-since-rest: true
-
-  world2:
-    enabled: false
-    calculation-method: percentage
-    percentage-required: 0.5
-    players-required: 5
-    mob-no-target: true
-    use-exempt: false
-    use-afk: false
-    use-bossbar: false
-    use-sound-night-skipped: false
-    use-sound-storm-skipped: false
-    use-title-night-skipped: false
-    use-title-storm-skipped: false
-    exempt-creative: false
-    exempt-spectator: false
-    prevent-sleep: false
-    prevent-phantom: false
-    nightcycle-animation: false
-    storm-sleep: true
-    skip-delay: 0
-    heal: false
-    feed: false
-    skip-night-sound: ui.toast.challenge_complete
-    skip-storm-sound: entity.wither.spawn
-    reset-time-since-rest: true
+    clock-animation: true
+    allow-sleep-cmd: true
+    non-sleeping-title: false
+    allow-kick: false
+    non-sleeping-clock-animation: false
+    exempt-below-y: -1
+    insomnia-chance: 0.0
+    gsit-hook: false
+    gsit-sleep: true
+    disable-daylight-cycle-gamerule: true
+    dynamic-animation-speed: false
+    skip-msg-audience: all
+    exempt-flying: false
+    insomnia-milk: false
+    non-sleeping-sound: false
+    skip-storm: true
+    gsit-sleep-cmd: false
+    phantom-reset-audience: all
+    force-nightcycle-animation: true
 
 # specify the time which the world will be set after reset
 time-after-reset: 0
@@ -88,5 +81,5 @@ time:
 messages:
   cooldown: 10
 
-#debug mode
+# debug mode
 debug-mode: false
