@@ -1,0 +1,79 @@
+enabled: true
+
+entities:
+  enderman-grief:
+    enabled: true
+    worlds:
+      - world
+      - world_nether
+      - world_the_end
+
+  creeper-grief:
+    enabled: true
+    worlds:
+      - world
+      - world_nether
+      - world_the_end
+
+  wither-grief:
+    enabled: false
+    worlds:
+      - world
+      - world_nether
+      - world_the_end
+
+  villager-grief:
+    enabled: false
+    worlds:
+      - world
+      - world_nether
+      - world_the_end
+
+  pig-grief:
+    enabled: false
+    worlds:
+      - world
+      - world_nether
+      - world_the_end
+
+  sheep-grief:
+    enabled: false
+    worlds:
+      - world
+      - world_nether
+      - world_the_end
+
+  ghast-grief:
+    enabled: false
+    worlds:
+      - world
+      - world_nether
+      - world_the_end
+
+  enderdragon-grief:
+    enabled: false
+    worlds:
+      - world
+      - world_nether
+      - world_the_end
+
+  silverfish-grief:
+    enabled: false
+    worlds:
+      - world
+      - world_nether
+      - world_the_end
+
+  tnt-grief:
+    enabled: false
+    worlds:
+      - world
+      - world_nether
+      - world_the_end
+
+  endcrystal-grief:
+    enabled: false
+    worlds:
+      - world
+      - world_nether
+      - world_the_end
