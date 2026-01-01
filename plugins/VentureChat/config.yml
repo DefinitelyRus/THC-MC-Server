@@ -10,30 +10,7 @@
 # Example filtered sentence: You are an asshole.  Will become: You are an donutshole.
 # Default filters by Jabelpeeps
 filters:
-- (\b.?anus),donuts
-- (\ba+r*(se+|ss+(?!(ass|um|oc|ign|ist)).*?|s*e*h+[o0]*[l1]+e*[sz]*)\b),donuts
-- (b[i1]a?tch(es)?),puppy
-- Carpet Muncher,cookie monster
-- (\bc((?!ook\b)[o0]+c*|aw)k\W?(sucker|s*|he[ea]*d)\b),rooster
-- (\b[ck]r+a+p+(er|s|z)?\b),poopoo
-- (\bcu+m+\b),go
-- (\b.?[ck](u*n+|[l1]+[i1]+)t+[sz]*\b),peach
-- (\b.?d[1i](c?k(head)?|[l1]+d[o0])e?[sz]?\b),rooster
-- f u c k( e r)?,nono
-- (\b.?fai*g+[oei1]*t*[sz]*\b),cigar
-- Fudge Packer,fine person
-- (\b(m[uo]+th[ae]r?)?(f|ph)uc*k*(e[rn]|ah*|ing?|)[sz]?\b),oh dear
-- (\b(j(ac|er|ur)k\W?(of+))|(ji[sz]+i*m*)\b),bake brownies
-- (\b(ma+s+te?rbai?te?[rs]?|wank(er)?[sz]?)\b),bake brownies
-- orafi(s|ce),rooster
-- (\bp+[e3]+[ai]*n+[i1!ua]+s+),rooster
-- (\bp[i1]s+(?!(ton))(flap|face|drop)?),peepee
-- (\b.?sh[i1!y]t+(er?|y|head)?[sz]*),poopoo
-- (\bva[1i]?[gj]+[i1]+na+\b),peach
-- vu[1l]+va,peach
-- planet.?minecraft,another dimension
-- pmc,another dimension
-- ((\d+\.){3}\d+),another dimension
+# none
 
 # command without the /
 blockablecommands:
@@ -91,7 +68,7 @@ saveinterval: 30
 # If you see this warning by accident and you are using BungeeCord, make sure you have properly setup IP Forwarding.
 # https://www.spigotmc.org/wiki/bungeecord-ip-forwarding/
 # No player data will be saved in offline mode unless you set this acknowledgement to 'true'
-offline_server_acknowledgement: false
+offline_server_acknowledgement: true
 
 # The time in seconds between each check to remove timed mutes
 unmuteinterval: 60
@@ -128,7 +105,7 @@ formatcleaner: true
 ignorechat: false
 
 # The message shown to players alerting them no one is in the channel to hear them
-emptychannelalert: "&6No one is listening to you."
+emptychannelalert: "&6No one received your message."
 
 messageremoverpermissions: '&cYou need additional permissions to view this message!'
 messageremovertext: '&c&o<message removed>'
