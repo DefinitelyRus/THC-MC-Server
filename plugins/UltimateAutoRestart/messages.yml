@@ -32,7 +32,7 @@
 stripConsole: false
 
 # Note: Default reason placeholder if a custom reason was not defined (force restart command)
-defaultReason: "Scheduled restart"
+defaultReason: "The server is restarting automatically..."
 
 messages:
 
