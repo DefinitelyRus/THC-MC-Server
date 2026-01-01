@@ -1,0 +1,65 @@
+# GraveLootZ Configuration
+
+# Should permissions be required to use the plugin?
+use-permissions: false
+
+# Should graves be protected from other players?
+protect-graves: true
+
+# Should death messages be shown to the player?
+show-death-messages: true
+
+# Should grave locations be shown in death messages?
+show-grave-locations: true
+
+# Should players receive a compass pointing to their grave?
+send-compass-on-death: true
+
+# Time until graves expire in minutes (0 = never expire)
+grave-expiration-time: 1440
+
+# Should the timer pause when the player is offline?
+# If true, graves will only age when the owner is online
+pause-timer-when-offline: true
+
+# Time in minutes after which other players can access graves (0 = never)
+# This allows for community looting of old graves
+public-access-time: 60
+
+# Should items drop on the ground when graves expire?
+drop-items-on-expire: true
+
+# Message displayed on grave chests
+# Use %player% as a placeholder for the player's name
+grave-message: "&8[&6%player%'s Grave&8]"
+
+# Force double chest creation even for smaller inventories
+# If true, all graves will be double chests regardless of item count
+always-use-double-chest: false
+
+# Maximum items to store per grave (0 = unlimited)
+# Items exceeding this limit will be dropped around the grave
+# Note: Double chests can hold up to 54 items maximum
+max-items-per-grave: 0
+
+# Economy settings
+# NOTE: Economy features require the Vault plugin to be installed
+# If you don't want economy features, simply keep enabled: false
+# The plugin will work perfectly fine without Vault installed when economy is disabled
+economy:
+  # Enable economy features (requires Vault plugin)
+  # Set to false if you don't want any economy features
+  enabled: false
+  # Cost to teleport to a grave (0 = free)
+  # Only applies when economy is enabled and Vault is installed
+  teleport-cost: 10.0
+
+# Hologram settings
+holograms:
+  # Enable floating text above graves
+  enabled: true
+
+# Worlds where graves should not be created
+disabled-worlds:
+  - "world_nether"
+  - "minigames"
