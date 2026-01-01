@@ -10,9 +10,94 @@
 # Download placeholders: /papi ecloud
 check_updates: true
 cloud_enabled: true
-cloud_sorting: "name"
+cloud_sorting: name
 boolean:
   'true': 'yes'
   'false': 'no'
 date_format: MM/dd/yy HH:mm:ss
 debug: false
+expansions:
+  vault:
+    formatting:
+      thousands: k
+      millions: M
+      billions: B
+      trillions: T
+      quadrillions: Q
+  floodgate:
+    device:
+      osx: OSX
+      ps4: PS4
+      uwp: UWP
+      ios: IOS
+      win32: WIN32
+      unknown: UNKNOWN
+      gearvr: GEARVR
+      nx: NX
+      google: GOOGLE
+      dedicated: DEDICATED
+      generic: Bedrock
+      java: Java
+      amazon: AMAZON
+      xbox: XBOX
+      hololens: HOLOLENS
+    is-bedrock:
+      none: 'false'
+      found: 'true'
+    xbox-xuid:
+      none: N/A
+      found: '%xuid%'
+    xbox-username:
+      found: '%username%'
+      none: N/A
+    locale:
+      none: N/A
+      found: '%locale%'
+    version:
+      none: N/A
+      found: '%version%'
+  string:
+    separator: _
+    replacements:
+      small-numbers:
+        '0': ₀
+        '1': ₁
+        '2': ₂
+        '3': ₃
+        '4': ₄
+        '5': ₅
+        '6': ₆
+        '7': ₇
+        '8': ₈
+        '9': ₉
+  player:
+    ping_value:
+      high: 100
+      medium: 50
+    direction:
+      north: N
+      south: S
+      north_west: NW
+      north_east: NE
+      east: E
+      south_east: SE
+      west: W
+      south_west: SW
+    ping_color:
+      medium: '&e'
+      high: '&c'
+      low: '&a'
+  str:
+    debug: false
+    boolean:
+      format:
+        'true': '&aO'
+        'false': '&7X'
+      output-parameter-format: true
+    blank:
+      tail:
+        suffix: ''
+        prefix: ''
+      head:
+        suffix: ''
+        prefix: ''
