@@ -1,6 +1,10 @@
 # How to Join
 > ⚠ Important: Bedrock players **must** have an official copy of the game in order to join.
 
+&nbsp;
+
+---
+
 ## ▶ PlayIt (Simplest) ◀
 If you just want to play and don't care too much about some network lag, this is the simplest way to join and start playing.
 
@@ -15,7 +19,9 @@ If you just want to play and don't care too much about some network lag, this is
 | Java | `central-international.gl.joinmc.link` | `21419` |
 | Bedrock | `remote-regardless.gl.at.ply.gg` | `38641` |
 
+---
 
+&nbsp;
 ## ZeroTier One (Faster Connection)
 > 🛑 **Notice: This option is unavailable at this time.** 🛑
 
@@ -53,6 +59,7 @@ If you want better performance while playing, you can connect via a VPN to skip 
 
 #### 8. You're ready to go!
 
+&nbsp;
 
 ### Android / iOS
 1. Download and install the app from [Google Play](https://play.google.com/store/apps/details?id=com.zerotier.one) or [Apple App Store](https://apps.apple.com/us/app/zerotier-one/id1084101492).
@@ -63,10 +70,12 @@ If you want better performance while playing, you can connect via a VPN to skip 
 6. A pop-up will appear asking to add ZeroTier One as a VPN on your device. Tap on "OK".
 7. You're ready to go!
 
+&nbsp;
+
 ### Linux / macOS
-good luck lmao
+good luck 🖕
 
-
+&nbsp;
 
 # Versions
 Thanks to ViaBackwards, y'all should be able to join with any Minecraft release since `1.9`.
