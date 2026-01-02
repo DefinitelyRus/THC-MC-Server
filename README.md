@@ -16,7 +16,7 @@ If you just want to play and don't care too much about some network lag, this is
 
 | Platform | IP Address | Port |
 | --- | --- | --- |
-| Java | `central-international.gl.joinmc.link` | `21419` |
+| Java | `name-condo.gl.joinmc.link` | `24156` |
 | Bedrock | `remote-regardless.gl.at.ply.gg` | `38641` |
 
 ---
