@@ -81,7 +81,7 @@ blacklist:
 - BEDROCK
 - LAVA_BUCKET
 - ARMOR_STAND
-break_bedrock: false
+break_bedrock: true
 command_blacklist: false
 commands:
 - give
