@@ -14,7 +14,7 @@ If you just want to play and don't care too much about some network lag, this is
 | --- | --- | --- |
 | Java | `central-international.gl.joinmc.link` | `21419` |
 | Bedrock | `remote-regardless.gl.at.ply.gg` | `38641` |
-|
+
 
 ## ZeroTier One (Faster Connection)
 > 🛑 **Notice: This option is unavailable at this time.** 🛑
@@ -27,7 +27,7 @@ If you want better performance while playing, you can connect via a VPN to skip 
 | --- | --- | --- |
 | Java | `256.256.256.256` | `25565` |
 | Bedrock | `256.256.256.256` | `19132` |
-|
+
 
 ### Windows
 #### 1. Download and install the app from [their website](https://www.zerotier.com/download/).
