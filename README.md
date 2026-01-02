@@ -23,7 +23,6 @@ If you just want to play and don't care too much about some network lag, this is
 
 &nbsp;
 ## ZeroTier One (Faster Connection)
-> 🛑 **Notice: This option is unavailable at this time.** 🛑
 
 If you want better performance while playing, you can connect via a VPN to skip relaying through PlayIt. This reduces the latency between your device and the server. However, some setup is required.
 
@@ -31,8 +30,8 @@ If you want better performance while playing, you can connect via a VPN to skip 
 
 | Platform | IP Address | Port |
 | --- | --- | --- |
-| Java | `256.256.256.256` | `25565` |
-| Bedrock | `256.256.256.256` | `19132` |
+| Java | `10.242.128.205` | `25565` |
+| Bedrock | `10.242.128.205` | `19132` |
 
 
 ### Windows
@@ -57,7 +56,11 @@ If you want better performance while playing, you can connect via a VPN to skip 
 #### 7. Open the app again. Hover over "miku39" in the list and make sure "Allow Managed Addresses" is enabled.
 <img src="readme-imgs/win-step7.jpg" style="max-width:700px;"/>
 
-#### 8. You're ready to go!
+#### 8. Choose the IP address and port for your edition of Minecraft.
+
+#### 9. Add it to your server list.
+
+#### 10. Click join!
 
 &nbsp;
 
@@ -69,11 +72,21 @@ If you want better performance while playing, you can connect via a VPN to skip 
 5. You will see the network you just added on the list as an unnamed network--switch it on.
 6. A pop-up will appear asking to add ZeroTier One as a VPN on your device. Tap on "OK".
 7. You're ready to go!
+8. Choose the IP address and port for your edition of Minecraft.
+9. Add it to your server list.
+10. Click join!
 
 &nbsp;
 
-### Linux / macOS
-good luck 🖕
+### Linux
+figure it out
+
+*It's not actually difficult, I just don't want to write the instructions for something no one will need.*
+
+&nbsp;
+
+### macOS
+imagine using macOS 🤣
 
 &nbsp;
 
