@@ -203,7 +203,7 @@ world-settings:
         controllable: true
         ridable-max-y: 320.0
         attributes:
-          max_health: 5000.0
+          max_health: 1000.0
         always-drop-full-exp: true
         mob-griefing-override: default
         takes-damage-from-water: false
