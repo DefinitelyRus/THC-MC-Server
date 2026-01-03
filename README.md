@@ -30,8 +30,8 @@ If you want better performance while playing, you can connect via a VPN to skip 
 
 | Platform | IP Address | Port |
 | --- | --- | --- |
-| Java | `10.242.128.205` | `25565` |
-| Bedrock | `10.242.128.205` | `19132` |
+| Java | `10.242.128.229` | `25565` |
+| Bedrock | `10.242.128.229` | `19132` |
 
 
 ### Windows
