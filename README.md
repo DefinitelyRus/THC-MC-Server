@@ -3,8 +3,6 @@
 
 &nbsp;
 
----
-
 ## ▶ PlayIt (Simplest) ◀
 If you just want to play and don't care too much about some network lag, this is the simplest way to join and start playing.
 
@@ -19,9 +17,12 @@ If you just want to play and don't care too much about some network lag, this is
 | Java | `name-condo.gl.joinmc.link` | `24156` |
 | Bedrock | `remote-regardless.gl.at.ply.gg` | `38641` |
 
+&nbsp;
+
 ---
 
 &nbsp;
+
 ## ZeroTier One (Faster Connection)
 
 If you want better performance while playing, you can connect via a VPN to skip relaying through PlayIt. This reduces the latency between your device and the server. However, some setup is required.
@@ -30,8 +31,8 @@ If you want better performance while playing, you can connect via a VPN to skip 
 
 | Platform | IP Address | Port |
 | --- | --- | --- |
-| Java | `10.242.128.205` | `25565` |
-| Bedrock | `10.242.128.205` | `19132` |
+| Java | `10.242.128.229` | `25565` |
+| Bedrock | `10.242.128.229` | `19132` |
 
 
 ### Windows
