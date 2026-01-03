@@ -11,7 +11,7 @@ limits:
 # Wand settings
 wand:
   # Item to use as selection wand
-  item: "minecraft:wooden_axe"
+  item: "minecraft:knowledge_book"
 # File settings
 files:
   # Schematics directory
