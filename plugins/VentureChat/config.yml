@@ -271,7 +271,7 @@ channels:
     color: dark_green
     chatcolor: gray
     mutable: true
-    filter: true
+    filter: false
     autojoin: true
     default: true
     distance: 0
@@ -376,7 +376,7 @@ channels:
     color: yellow
     chatcolor: yellow
     mutable: true
-    filter: true
+    filter: false
     autojoin: true
     default: false
     distance: 230
