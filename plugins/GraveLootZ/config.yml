@@ -16,7 +16,7 @@ show-grave-locations: true
 send-compass-on-death: true
 
 # Time until graves expire in minutes (0 = never expire)
-grave-expiration-time: 1440
+grave-expiration-time: 60
 
 # Should the timer pause when the player is offline?
 # If true, graves will only age when the owner is online
@@ -61,5 +61,4 @@ holograms:
 
 # Worlds where graves should not be created
 disabled-worlds:
-  - "world_nether"
   - "minigames"
