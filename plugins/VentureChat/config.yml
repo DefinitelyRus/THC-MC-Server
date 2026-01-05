@@ -9,8 +9,8 @@
 # Example filtered sentence: You caught a bass.  Will stay: You caught a bass.  
 # Example filtered sentence: You are an asshole.  Will become: You are an donutshole.
 # Default filters by Jabelpeeps
-filters:
-# none
+filter:
+- planet.?minecraft,another dimension
 
 # command without the /
 blockablecommands:
