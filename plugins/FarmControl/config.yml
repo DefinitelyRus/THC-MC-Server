@@ -23,9 +23,6 @@ world-settings:
       proactive:
         - soft-nerf-animal-farms
         - soft-limit-animal-farms
-        - soft-limit-villager-breeders
-      #  - trim-animal-farms
-      #  - trim-sparse-animal-farms
 
       # These profiles only run when the server is performing poorly and are progressively undone as performance
       # improves (as defined under the reactive-mode-settings).
@@ -35,6 +32,7 @@ world-settings:
       reactive:
         - hard-nerf-animal-farms
         - freeze-animal-farms
+        - soft-limit-villager-breeders
 
     # These settings concern the reactive mode for triggering profile check / action cycles.
     reactive-mode-settings:
