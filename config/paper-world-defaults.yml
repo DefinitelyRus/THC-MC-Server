@@ -307,13 +307,13 @@ tick-rates:
     villager:
       validatenearbypoi: -1
   container-update: 1
-  dry-farmland: 2
-  grass-spread: 3
-  mob-spawner: 2
+  dry-farmland: 5
+  grass-spread: 5
+  mob-spawner: 3
   sensor:
     villager:
       secondarypoisensor: 40
-  wet-farmland: 2
+  wet-farmland: 5
 unsupported-settings:
   disable-world-ticking-when-empty: false
   fix-invulnerable-end-crystal-exploit: true
